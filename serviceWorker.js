@@ -3,6 +3,7 @@ var cachedFiles = [
     './',
     './index.html',
     './text.html',
+    './images.html',
     './css/pwaStyle.css',
     './js/main.js'
 ];
