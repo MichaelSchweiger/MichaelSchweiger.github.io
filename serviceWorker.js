@@ -1,5 +1,5 @@
 var nameOfCache = "pwaDemoCache";
-var cachedFilesTest = [
+var cachedFiles = [
     './',
     './index.html',
     './text.html',
@@ -12,7 +12,7 @@ var cachedFilesTest = [
 self.addEventListener('install', function(e){
     e.waitUntil(
             caches.open(nameOfCache).then(function(cache){
-                return cache.addAll(cachedFilesTest);
+                return cache.addAll(cachedFiles);
             })
     );
 });
