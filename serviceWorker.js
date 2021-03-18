@@ -1,11 +1,11 @@
 var nameOfCache = "pwaDemoCache";
 var cachedFiles = [
-    '/',
-    '/inex.html',
-    '/text.html',
-    '/images.html',
-    '/css/pwaStyle.css',
-    '/js/main.js'
+    './',
+    './index.html',
+    './text.html',
+    './images.html',
+    './css/pwaStyle.css',
+    './js/main.js'
 ];
 
 /* Start service worker */
